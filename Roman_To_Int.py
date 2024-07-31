@@ -1,4 +1,4 @@
-## To Convert Roman Numerals to Int
+## To Convert Roman Numerals to Int ##
 
 
 # creating a dictionay where keys are Roman Numerals  and values are Int
@@ -35,4 +35,11 @@ for i in range(len(s)):
         final_value += roman_numerals[s[i]]
 
 print(final_value)
+
+
+
+
+-The time complexity of this code is O(n), where n is the length of the input string `s`. This is because the code iterates through each character in the string once in the for-loop.
+
+-The space complexity is O(1) because the code only uses a fixed amount of extra space regardless of the size of the input string. The space complexity does not depend on the input size.
 
