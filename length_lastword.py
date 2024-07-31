@@ -31,29 +31,6 @@ print(list)
 
 
 
+-The time complexity of this code is O(n), where n is the length of the input string. This is because the code iterates through each character in the input string once to split it into words and store them in a list.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# print(input_list)
-
-
-
-#
-# result = check(input, i)
-# print(input_list)
+-The space complexity is also O(n) because the code uses a list to store the words extracted from the input string. The size of this list will be proportional to the length of the input string.
