@@ -25,3 +25,10 @@ def check(num_str, new_num):
 
 result = check(num_str, new_num)
 print(result)
+
+
+
+
+# The time complexity of this code is O(n) where n is the number of digits in the 'digits' list. This is because the code loops through each digit in the list once to create the 'num_str' string.
+
+# The space complexity of this code is O(n) as well. This is because the 'num_str' string will store all the digits in the 'digits' list, and the 'new_num' variable will store the updated number after adding 1 to the 'num_str'. Additionally, the final list comprehension will create a new list based on the 'new_num' string.
