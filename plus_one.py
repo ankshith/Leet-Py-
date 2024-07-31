@@ -3,6 +3,7 @@ digits = [1,2,3,4]
 # Creating a new string to store new_num
 num_str = ""
 
+# initially new_num stores value 0, so that we can update with new_str
 new_num = 0
 
 def check(num_str, new_num):
