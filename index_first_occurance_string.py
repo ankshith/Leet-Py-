@@ -16,3 +16,8 @@ def check(haystack, find):
 
 
 check(haystack, find)
+
+
+# The time complexity of this code is O(n), where n is the length of the haystack string. This is because the code iterates through the haystack string to find the position of the "find" string within it.
+
+# The space complexity is O(1) because the code only uses a constant amount of extra space regardless of the size of the input. The only extra space used is for the empty list `store` and the variables `haystack` and `find`, which do not depend on the size of the input.
