@@ -22,4 +22,6 @@ result = check(arr)
 print(result)
 
 
+# The time complexity of this code is O(n) where n is the length of the input array 'arr'. This is because the code iterates through the array once in the for loop, checking each element and its neighbors.
 
+# The space complexity is O(1) because the code only uses a constant amount of extra space regardless of the size of the input array.
