@@ -20,3 +20,8 @@ while i < len(lst):
 # print k: the final score and the updated_list: lst
 print(f"Final score: {k}")
 print(f"Modified list: {lst}")
+
+
+# The time complexity of this code is O(n^2) because there is a nested loop structure - the outer loop iterates through the list once, and the inner loop potentially iterates through the list again when an element is removed. This results in a worst-case scenario where each element in the list is checked and potentially removed, leading to a quadratic time complexity.
+
+# The space complexity of this code is O(1) because the amount of extra space used does not increase with the size of the input list. Only a constant amount of extra space is used for variables like k, i, and target
