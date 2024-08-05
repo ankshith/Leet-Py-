@@ -31,3 +31,10 @@ def check(i,j):
 result = check(i,j)
 
 print(result)
+
+
+# The time complexity of this code is O(n) where n is the length of the input string s. This is because the code iterates through each character in the string s to build the new string str, and then it compares characters in str from both ends towards the middle. 
+
+# The space complexity of this code is also O(n) because the new string str is created to store only the alphanumeric characters from the input string s. Additionally, the variables i and j are used to keep track of the indices for comparison, but they do not scale with the input size.
+
+# Overall, the time and space complexity of this code is linear with respect to the length of the input string s.
