@@ -12,6 +12,15 @@ for n in range(len(nums)):
 
 print(nums)
 
+
+
+# The time complexity of this code is O(n) because it iterates through the list of numbers once.
+# The space complexity is O(1) because it only uses a constant amount of extra space regardless of the input size.
+
+
+
+# Example:
+
 ## Iteration 1: ##
 # nums[index = 0] = 0
 # nums[n=1] = 1
