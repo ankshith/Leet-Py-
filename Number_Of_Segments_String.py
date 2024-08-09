@@ -25,3 +25,8 @@ if s:
 
 
 print(len(lst))
+
+
+# The time complexity of this code is O(n), where n is the length of the input string. This is because the code iterates through each character in the string exactly once.
+
+# The space complexity is also O(n) because the code uses an empty string `s` to store each word before adding it to the list `lst`. The size of `s` can grow up to the length of the input string, so the space complexity is linear with respect to the input size.
